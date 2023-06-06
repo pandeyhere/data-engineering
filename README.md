@@ -65,5 +65,9 @@ Kinesis Streaming Agent -> Kinesis Data Firehose ->  Transform Records -> Save I
 - Data base/ Blob Storage - AWS Redshift - [Load]]
 - Analytic Tools - to provide an interface/ option to generate reports by providing queries to view analytics data and derive insights
 
+Availability of managed services are guaranteed by AWS and can be bought as desired (across diff datacenter/availability zones)
+Reliability is built into the solution by saving intermediate records/failed transformed records in S3
+If we were to make the processing more scalable, we could consider limiting the size of batch data at the source and process them. Also we could increase instances of Fire Hose Service/S3 Bucket for parallel processing of data.
+
 ```
 
