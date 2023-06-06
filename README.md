@@ -39,7 +39,7 @@ python process_csv_online_purchases.py customer_input.txt output1.csv
 - - customer_id (int): Unique identifier for each customer.
 - - total_spent (float): Total amount spent by the customer on that date.
 
-## Solution to Question on Situation Based Solution
+## Solution to Question on Situation Based
 
 ### Explanation
 ``` bash
