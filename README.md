@@ -1,9 +1,16 @@
 # data-engineering
 
+## Pre- requisites
+- Python3 & Pip is installed
+- Venv is created
+
 ## Solution to Question on User Interaction CSV
 
 ### Python Command to run program
 ``` bash
+source .venv/bin/activate
+python3 -m pip install wheel
+python3 -m pip install pandas
 python process_csv_user_interaction.py  user_visited.csv output.csv
 ```
 
@@ -19,6 +26,9 @@ python process_csv_user_interaction.py  user_visited.csv output.csv
 
 ### Python Command to run program
 ``` bash
+source .venv/bin/activate
+python3 -m pip install wheel
+python3 -m pip install pandas
 python process_csv_online_purchases.py customer_input.txt output1.csv 
 ```
 
